@@ -1,0 +1,105 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+h2, h4, p{
+  margin: 0;
+}
+
+body{
+  padding: 20px;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+#card{
+  width: 600px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+#top-section{
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+#bottom-section{
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+#bottom-left{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 20px;
+}
+#bottom-right{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ebfbd;
+  padding: 20px;
+}
+
+#top-section h2{
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+#top-section h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+#top-section p{
+  color: #98a6bd;
+}
+button{
+  color: white;
+  background-color: #c0df34;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  margin-top: 20px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #a9c42d;
+  transform: scale(1.02);
+}
+#bottom-left #price{
+  font-weight: 700;
+  font-size: 1.4rem;
+  opacity: 1;
+}
+#bottom-left h4{
+  margin-bottom: 15px;
+}
+#price, #permonth{
+  display: inline-block;
+}
+#permonth{
+  position: relative;
+  top: -3px;
+  margin-left: 5px;
+}
+#bottom-left p{
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+ul{
+  padding: 0;
+  list-style: none;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
