@@ -1,3 +1,3 @@
 # pricing-card-frontend-challenge
 
-Finished product in github-pages
+Finished product in Github Pages
