@@ -1,6 +1,6 @@
 # Frontend Practice - CSS
 
-![Design preview for the price card](./design/desktop-preview.jpg)
+![Design preview for the price card](./desktop-preview.jpg)
 
 - Finished product in GitHub Pages https://satorien.github.io/CSSPracticePage/
 
